@@ -16,3 +16,17 @@ print(beginning)
 # print pants pants
 middle = suitcase[2:4]
 print(middle)
+
+
+# If we want to select the first n elements of a list, we could use the following code:fruits[:n]
+# The following code would start slicing from index 0 and up to index 3. print(fruits[:3])
+
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+# Create a new list called last_two_elements containing the final two elements of suitcase.
+last_two_elements = suitcase[-2:]
+print(last_two_elements)
+
+# Create a new list called slice_off_last_three containing all but the last three elements.
+slice_off_last_three = suitcase[:-3]
+print(slice_off_last_three)
