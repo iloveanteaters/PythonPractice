@@ -30,3 +30,12 @@ print(last_two_elements)
 # Create a new list called slice_off_last_three containing all but the last three elements.
 slice_off_last_three = suitcase[:-3]
 print(slice_off_last_three)
+
+# In Python, it is common to want to count occurrences of an item in a list.
+# If we want to know how many times i appears in this word, we can use the list method called .count():
+
+votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "Laurie", "Cassie", "Cassie", "Jake", "Jake", "Cassie", "Laurie", "Cassie", "Jake", "Jake", "Cassie", "Laurie"]
+
+# Getting the amount of jake votes
+jake_votes = votes.count("Jake")
+print(jake_votes)
