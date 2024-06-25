@@ -31,3 +31,19 @@ range_five_three = range(5, 15, 3)
 # Ends before 40
 
 range_diff_five = range(0, 40, 5)
+
+# Often, we’ll need to find the number of items in a list, usually called its length.
+# We can do this using a built-in function called len().
+# When we apply len() to a list, we get the number of elements in that list:
+
+long_list = [1, 5, 6, 7, -23, 69.5, True, "very", "long", "list", "that", "keeps", "going.", "Let's", "practice", "getting", "the", "length"]
+
+# Calculate the length of long_list and save it to the variable long_list_len.
+
+long_list_len = len(long_list)
+print(long_list_len)
+
+# Calculate its length using the function len() and save it to a variable called big_range_length.
+big_range = range(2, 3000, 100)
+big_range_length = len(big_range)
+print(big_range_length)
