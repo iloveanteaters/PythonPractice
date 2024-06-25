@@ -58,3 +58,16 @@ sorted_cities = cities.sort(reverse=True)
 print(sorted_cities)
 
 # Editing sort to make it reverse order^
+
+# A second way of sorting a list in Python is to use the built-in function sorted().
+#The sorted() function is different from the .sort() method in two ways:
+#It comes before a list, instead of after as all built-in functions do.
+#It generates a new list rather than modifying the one that already exists.
+
+games = ["Portal", "Minecraft", "Pacman", "Tetris", "The Sims", "Pokemon"]
+
+#Use sorted() to order games and create a new list called games_sorted.
+games_sorted = sorted(games)
+# Print both games and games_sorted. How are they different?
+print(games)
+print(games_sorted)
