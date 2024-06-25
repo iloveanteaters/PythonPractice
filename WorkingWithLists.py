@@ -39,3 +39,22 @@ votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "
 # Getting the amount of jake votes
 jake_votes = votes.count("Jake")
 print(jake_votes)
+
+# Often, we will want to sort a list in either numerical (1, 2, 3, …) or alphabetical (a, b, c, …) order.
+# We can sort a list using the method .sort().
+
+addresses = ["221 B Baker St.", "42 Wallaby Way", "12 Grimmauld Place", "742 Evergreen Terrace", "1600 Pennsylvania Ave", "10 Downing St."]
+# sorting addresses
+addresses.sort()
+print(addresses)
+
+# Remove the # and whitespace in front of the line sort(names). Edit this line so that it runs without producing a NameError.
+names = ["Ron", "Hermione", "Harry", "Albus", "Sirius"]
+names.sort()
+
+# Use print to examine sorted_cities. Why is it not the sorted version of cities?
+cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
+sorted_cities = cities.sort(reverse=True)
+print(sorted_cities)
+
+# Editing sort to make it reverse order^
