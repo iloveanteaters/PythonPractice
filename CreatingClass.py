@@ -19,3 +19,18 @@ def __init__(self,input_name,input_breed_input_age=0,input_friendliness = True):
     self.breed = input_breed
     self.age = input_age
     self.is_friendly = input_friendliness
+
+class Dog:
+  def __init__(self, input_name, input_breed, input_age = 0, input_friendliness = True):
+    # Dog attributes...
+    self.name = input_name
+    self.age = input_age
+    # Other attributes would be listed below...
+
+  # The self parameter refers to the specific
+  # dog we're attaching this method to.
+  def have_birthday(self):
+    #  Add one to this specific dog's age.
+    self.age = self.age + 1
+    # Print out the change we made.
+    print("{name} had a birthday! {name} is {age} years old.".format(name = self.name, age = self.age))
