@@ -8,3 +8,14 @@ class Dog:
     self.breed = input_breed
     self.age = input_age
     self.is_friendly = input_friendliness
+
+# Create your class here
+class Lizard:
+  # Create a __init__ method
+def __init__(self,input_name,input_breed_input_age=0,input_friendliness = True):
+
+# Create a new pet!
+ self.name = input_name
+    self.breed = input_breed
+    self.age = input_age
+    self.is_friendly = input_friendliness
